@@ -1,0 +1,26 @@
+{
+  "name": "saddle-stitched-imposition-desk",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "浏览器内骑马钉画册拼版台：页码配对、自动补白、长短边翻面与折叠预演",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10",
+    "vitest": "^2.1.5"
+  }
+}
